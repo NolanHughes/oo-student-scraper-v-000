@@ -20,6 +20,7 @@ class Student
       name = hash[:name]
       locaiton = hash[:location]
       Student.new(name, location)
+      save
     end
     binding.pry
   end
