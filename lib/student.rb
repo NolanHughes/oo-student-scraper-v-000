@@ -26,8 +26,6 @@ class Student
       student_instance_hash[:location] = hash[:location]
 
       student_array << student_instance_hash
-      # Student.new(student_hash)
-      # save
     end
 
     student_array.each do |hash|
