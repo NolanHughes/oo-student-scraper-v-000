@@ -19,8 +19,7 @@ class Student
     student_hash = []
 
     students_array.each do |hash|
-      student_hash << hash[:name]
-      student_hash << hash[:location]
+      student_hash[:name] = hash[:name]
 
       # Student.new(student_hash)
       # save
