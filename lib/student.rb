@@ -19,12 +19,12 @@ class Student
     student_hash = []
 
     students_array.each do |hash|
-      student_hash[:name] = hash[:name]
-
+      # student_hash[:name] = hash[:name]
+    binding.pry
       # Student.new(student_hash)
       # save
     end
-    binding.pry
+
   end
 
   def add_student_attributes(attributes_hash)
