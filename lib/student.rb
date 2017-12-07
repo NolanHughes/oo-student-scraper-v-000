@@ -17,11 +17,16 @@ class Student
 
   def self.create_from_collection(students_array)
     student_hash = {}
-    student_array = []
+    
 
     students_array.each do |hash|
-      student_hash[:name] = hash[:name]
-      student_hash[:location] = hash[:location]
+      student_instance_hash = {}
+      student_array = []
+      
+      student_instance_hash[:name] = hash[:name]
+      student_instance_hash[:location] = hash[:location]
+
+      student_array << student_instance_hash
       # Student.new(student_hash)
       # save
     end
