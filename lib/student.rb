@@ -33,7 +33,6 @@ class Student
     student_array.each do |hash|
       Student.new(hash)
     end
-    binding.pry
   end
 
   def add_student_attributes(attributes_hash)
