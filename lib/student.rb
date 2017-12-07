@@ -21,6 +21,9 @@ class Student
 
   def add_student_attributes(attributes_hash)
     @bio = attributes_hash[:bio]
+    @blog = attributes_hash[:blog]
+    @linkedin = attributes_hash[:linkedin]
+    @profile_quote = attributes_hash[:profile_quote]
   end
 
   def self.all
