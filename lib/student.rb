@@ -20,7 +20,7 @@ class Student
     student_array = []
 
     students_array.each do |hash|
-      student_instance_hash = {}      
+      student_instance_hash = {}
 
       student_instance_hash[:name] = hash[:name]
       student_instance_hash[:location] = hash[:location]
@@ -32,6 +32,7 @@ class Student
 
     student_array.each do |hash|
       Student.new(hash)
+    end
     binding.pry
   end
 
