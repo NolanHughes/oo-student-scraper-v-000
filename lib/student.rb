@@ -16,7 +16,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    student_hash = []
+    student_hash = {}
 
     students_array.each do |hash|
       # student_hash[:name] = hash[:name]
