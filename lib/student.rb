@@ -29,6 +29,9 @@ class Student
       # Student.new(student_hash)
       # save
     end
+
+    student_array.each do |hash|
+      Student.new(hash)
     binding.pry
   end
 
