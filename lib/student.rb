@@ -20,6 +20,7 @@ class Student
       @name = hash[:name]
       @locaiton = hash[:location]
     end
+    binding.pry
   end
 
   def add_student_attributes(attributes_hash)
